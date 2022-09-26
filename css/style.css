@@ -316,7 +316,13 @@ a {
 .footer div {
 	font-size: 1rem !important;
 }
-
+.bordered {
+	/* border: 1px solid grey; */
+	background-color: white;
+}
+.rounded {
+	border-radius: 5px;
+}
 #education {
 	background: linear-gradient(rgb(205, 255, 245) 20%, #ffffff);
 	border-top-left-radius: 50px;
@@ -330,6 +336,38 @@ a {
 	font-size: var(--fontSizes-huge);
 	/* font-weight: bolder; */
 }
+
+#contact {
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	color: white;
+	background-color: #2800ff;
+	padding: 4rem 8rem;
+}
+#contact h1 {
+	font-size: var(--fontSizes-huge);
+}
+#contact img {
+	height: 40px;
+}
+.no-style {
+	background: transparent !important;
+	border: none !important;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* justify-content: flex-start; */
+}
+
+.contact {
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	padding: 0 1rem;
+	cursor: pointer;
+	margin: 1rem 0;
+	/* border: 1px solid black; */
+}
+/* # */
 /* animations for hover */
 
 /* #main img:hover {
