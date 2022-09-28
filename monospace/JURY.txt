@@ -1,0 +1,14 @@
+
+Dear members of the jury/compo crew,
+
+MONOSPACE was tested in latest stable versions of Chromium
+
+Please use Edge in 1920x1080 Fullscreen with the --allow-file-access-from-files
+command line flag to run the intro from file:\\
+
+Firefox is unbearably slow due to the bug 1190398 :(
+
+
+Thanks!
+
+p01/RIBBON

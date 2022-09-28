@@ -26,7 +26,13 @@
 				</ul>
 			</div>
 			<div id="me">
-				<div class="button" id="hireMe_button">Hire me</div>
+				<div
+					class="button"
+					id="hireMe_button"
+					onclick="location.href='https://www.facebook.com/jasonpael26'"
+				>
+					Hire me
+				</div>
 			</div>
 			<!-- </div> -->
 		</header>
@@ -38,14 +44,13 @@
 						<p>
 							<br />
 							I am Jason Pael a full-stack web developer based in the
-							Philippines.
-							<br /><br />
+							Philippines. <br /><br />
 							Currently, I am studying at NEMSU (Northeastern Mindanao State
 							University). But still, I can accommodate a part-time job in
 							web-development.
 						</p>
 					</div>
-					<img src="css/images/me.png" alt="" />
+					<img id="img_me" src="css/images/me.png" alt="" />
 				</article>
 			</section>
 			<section id="skills">
@@ -116,7 +121,12 @@
 									active cases, total death, and total recovery by the span of
 									months or days. It is made using HTML, CSS, Javascript.
 								</p>
-								<div class="button">Visit me</div>
+								<div
+									class="button"
+									onclick="window.open('https://jasonpael.glitch.me')"
+								>
+									Visit me
+								</div>
 							</div>
 						</div>
 					</div>
@@ -203,6 +213,13 @@
 				<article>
 					<div class="card_container">
 						<h1>Education</h1>
+						<!-- <div
+							style="
+								display: flex;
+								flex-direction: row;
+								justify-content: space-evenly;
+							"
+						> -->
 						<div class="card bordered rounded">
 							<div class="card_header"><h1>SY 2013-2014</h1></div>
 							<p>I graduated at Unidad Elementary School</p>
@@ -214,6 +231,7 @@
 						<div class="card bordered rounded">
 							<div class="card_header"><h1>SY 2019-2020</h1></div>
 							<p>I graduated at Tagum National Trade School</p>
+							<!-- </div> -->
 						</div>
 					</div>
 				</article>
@@ -225,12 +243,12 @@
 							<h1>Contact</h1>
 						</div>
 						<div class="card_content no-style">
-							<a href="https://www.facebook.com/jasonpael26" target="_blank">
-								<div class="contact">
-									<img src="css/images/svg/facebook-logo-2019.svg" alt="" />
+							<div class="contact">
+								<img src="css/images/svg/facebook-logo-2019.svg" alt="" />
+								<a href="https://www.facebook.com/jasonpael26" target="_blank">
 									FaceBook @https://www.facebook.com/jasonpael26
-								</div>
-							</a>
+								</a>
+							</div>
 							<div class="contact">
 								<img src="css/images/svg/gmail.svg" alt="" />
 								Gmail @jasonjasonpael1234@gmail.com
@@ -244,5 +262,30 @@
 				</article>
 			</section>
 		</main>
+		<script>
+			// const duration = 5;
+			// const text = "ePortfolio_2.0";
+			// const interval = 5;
+
+			// function recursiveAnimateTitle(string) {
+			// 	let firstLetter = string[0];
+			// 	let title = document.querySelector("title");
+			// 	title.innerHTML += firstLetter;
+			// 	if (string.length > 1) {
+			// 		setTimeout(function () {
+			// 			recursiveAnimateTitle(string.substring(1));
+			// 		}, 1000 / interval);
+			// 	}
+			// }
+
+			// function animateTitle(string) {
+			// 	document.querySelector("title").innerHTML = "";
+			// 	recursiveAnimateTitle(string);
+			// }
+
+			// while (true) {
+			// animateTitle(text);
+			// }
+		</script>
 	</body>
 </html>

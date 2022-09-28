@@ -1,0 +1,5 @@
+Entry name: MONOSPACE
+Author: p01 / RIBBON
+Category: 1k
+Platform: JavaScript
+Description: MONOSPACE: FLIP DOTS WITH FEELINGS
